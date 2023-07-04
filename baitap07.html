@@ -7,58 +7,76 @@
     <title>Bài tập 07</title>
 </head>
 <style>
+    /* cục 1: float left width:30%; cục 2: float:right width30%;thì cục thứ 3 tự động nhảy lên */
     * {
         margin: 0;
         padding: 0;
     }
 
-    .nen {
-        background-color: grey;
+    .plans {
+        width: 1200px;
+        height: 180px;
+        background-color: rgb(12, 115, 115);
+        border: 1px solid rgb(12, 115, 115);
+        margin: 20px;
     }
 
-    .container {
-        background-color: white;
-        border-radius: 5px;
-        border: 1px solid grey;
+    .ground-one {
+        float: left;
         width: 30%;
-        margin: 20px 20px 20px 350px;
+        margin: 20px;
     }
 
-    .modal button {
-        background-color: white;
-        color: gray;
-        font-size: 20px;
-        margin: 0 5px 0 410px;
-        border: none;
+    .ground-one h2 {
+        margin-bottom: 10px;
     }
 
-    .Show {
-        border-bottom: 1px solid grey;
-        border-top: 1px solid grey;
-        margin: 20px 0 20px 0;
+    .ground-two {
+        float: left;
+        width: 30%;
+        margin: 20px;
     }
 
-    .Open button {
-        background-color: rgb(8, 86, 202);
-        color: white;
-        margin: 10px 0px 10px 300px;
+    .ground-two ul {
+        margin: 20px;
+        padding-left: 15px;
+    }
+
+    .ground-three {
+        float: right;
+        width: 30%;
+        margin: 20px;
+    }
+
+    .ground-three img {
+        margin: 20px 0;
     }
 </style>
 
 <body>
-    <div class="nen">
-        <div class="container">
-            <div class="modal">
-                <h2>Modal 1</h2>
-                <button>X</button>
-            </div>
-            <div class="Show">
-                <p>Show a second modal and hide this one with the button below.</p>
-            </div>
-            <div class="Open"><button>Open second modal</button></div>
+    <footer class="plans">
+        <div class="ground-one">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsum quisquam ratione, similique eligendi
+                quasi amet provident temporibus ullam quas nobis modi excepturi saepe possimus animi dolorem labore
+            </p>
         </div>
-    </div>
-
+        <div class="ground-two">
+            <h2>Quick Links</h2>
+            <ul>
+                <li>Home</li>
+                <li>Service</li>
+                <li>Appointment</li>
+            </ul>
+        </div>
+        <div class="ground-three">
+            <h2>Follow us</h2>
+            <img src="./images/Screenshot 2023-07-04 234909.png" alt="">
+            <img src="./images/Screenshot 2023-07-04 234852.png" alt="">
+            <img src="./images/Screenshot 2023-07-04 234909.png" alt="">
+            <img src="./images/Screenshot 2023-07-04 234834.png" alt="">
+        </div>
+    </footer>
 </body>
 
 </html>
