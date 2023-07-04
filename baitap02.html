@@ -1,42 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài Tập về các thẻ sanh sách</title>
+    <title>Bài tập 02</title>
 </head>
+<style>
+    /* Set lại css mặc định cho các thẻ*/
+
+    * {
+        margin: 0;
+        padding: 0
+    }
+
+    /* vùng 1*/
+
+    .container {
+        margin: 20px 0 0 20px;
+        width: 60%
+    }
+
+    .content-one {
+        margin-left: 10px
+    }
+
+    .text-align-content {
+        color: rgb(176, 26, 56);
+        background-color: rgb(246, 245, 245);
+    }
+
+    /* solid là đường kẻ*/
+    .content-text {
+        height: 30px;
+        border: 1px solid green;
+        text-align: center;
+        padding-top: 15px;
+        margin top: 10px;
+    }
+
+    /* vung 2*/
+    .content-two {
+        margin-top: 20px;
+        background-color: rgb(226, 232, 245);
+    }
+
+    .content-text-two {
+        background-color: white;
+        border-left: 3px solid rgb(5, 172, 100);
+    }
+
+    .span-text {
+        color: red
+    }
+
+    button {
+        background-color: rgb(5, 172, 100);
+        color: aliceblue;
+        margin-top: 10px;
+        width: 20%;
+        height: 30%;
+        border: none;
+        border-radius: 5px;
+
+    }
+</style>
+
 <body>
-    <h1>Các món ăn yêu thích của tôi</h1>
-    <ul>
-        <li>
-            <h3>Bún chả</h3>
-        </li>
-        <li>
-            <h3>Phở</h3>
-        </li>
-        <li>
-            <h3>Bánh mì</h3>
-        </li>
-        <li>
-            <h3>Gà nướng</h3>
-        </li>
-    </ul>
-    <h1>Các địa điểm du lịch yêu thích của tôi</h1>
-    <ol>
-        <li>
-            <h3>Đà Lạt</h3>
-        </li>
-        <li>
-            <h3>Phú Quốc</h3>
-        </li>
-        <li>
-            <h3>Sapa</h3>
-        </li>
-        <li>
-            <h3>Hạ Long</h3>
-        </li>
-    </ol>
-        
- 
+    <div class="container">
+        <!--Vùng thứ 1-->
+        <div class="content-one">
+            <h2>Center Align Text</h2>
+            <p>
+                Lorem ipsum dolor sit amet.
+                <span class="text-align-content">text-align: center</span>
+            </p>
+            <div class="content-text">This text is centered</div>
+        </div>
+        <!--Vùng thứ 2-->
+        <div class="content-two">
+            <h3 style="margin:10px 0">Example</h3>
+            <div class="content-text-two">
+                <p>
+                    <span style="color: rgb(176, 26, 56)">.center</span> {<br>
+                    <a class="span-text">text-align:</a> <span>center</span><br>
+                    <a class="span-text">border:</a> <span> 3px solid green</span><br>
+                    }
+                </p>
+            </div>
+            <button>Try it Yourself</button>
+
+        </div>
+    </div>
 </body>
+
 </html>

@@ -1,14 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài tập thực hành thẻ img</title>
+    <title>Bài tập 05</title>
 </head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    .featured {
+        border: 1px solid gray;
+        height: 50px;
+        background-color: rgb(247, 247, 247);
+    }
+
+    .featured p {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .treatment {
+        border: 1px solid gray;
+    }
+
+    h3 {
+        text-align: center;
+        padding-top: 15px;
+        ;
+    }
+
+    .text-content {
+        text-align: center;
+        margin-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .go-somewhere {
+        display: block;
+        text-align: center;
+        width: 150px;
+        height: 30px;
+        background-color: rgb(6, 125, 222);
+        color: aliceblue;
+        border: none;
+        border-radius: 5px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
+    .days-ago {
+        border: 1px solid gray;
+        height: 50px;
+        background-color: rgb(247, 247, 247);
+    }
+
+    .days-ago p {
+        color: grey;
+        text-align: center;
+        padding-top: 15px;
+    }
+</style>
+
 <body>
-    <h1>Đây là trang web của tôi</h1>
-    <p>Chào mừng đến với trang web của tôi. Đây là một ví dụ về cách sử dụng thẻ img để hiển thị hình ảnh trên trang web</p>
-<img width="610px" height="310px" src="https://rikkei.edu.vn/wp-content/uploads/2022/08/chuong-trinh-hoc-lap-trinh-tinh-gon-tai-rikkei-academy-min.png" alt="Rikkei Academy">
+    <div class="container">
+        <div class="featured">
+            <p>Featured</p>
+        </div>
+        <div class="treatment">
+            <h3 class="title">Special title treatment</h3>
+            <p class="text-content">with supporting text below as a natural </p>
+
+        </div>
+        <div><button class="go-somewhere">go somewhere</button></div>
+        <div class="days-ago">
+            <p>2 days ago</p>
+        </div>
+    </div>
 
 </body>
+
 </html>
